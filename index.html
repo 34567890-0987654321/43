@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="button.css"><!-- кнопки -->
+<link rel="stylesheet" href="risovanie.css"><!-- кнопки -->
+    <link rel="icon" href="data:image/png;base64,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">
+   
+   
+   <style>
+
+        img {
+              max-width: 300px;
+              max-height: 500px;
+             
+          }
+      </style>
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+</style>
+
+<head>
+
+</head>
+<body>
+
+
+<div class="sidenav">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <div class="ctn">
+       <h1 style="color:#f1f1f1">картины:</h1> 
+       <br><br><br><br><br><br>
+    <a href="http://192.168.0.25:5500/pk/dorogie.html" class="button b-green">дорогие </a>
+    <br><br><br><br><br><br>
+    <a href="http://192.168.0.25:5500/pk/izvectnie.html" class="button b-pink">известные</a>
+    <br><br><br><br><br><br>
+    <a href="http://192.168.0.25:5500/pk/abstraktnie.html" class="button b-red">абстрактные</a>
+    <br><br><br><br><br><br>
+    <a href="http://192.168.0.25:5500/pk/neobichnie.html" class="button b-orange">необычные</a>
+    <br><br><br><br><br><br><br><br>
+    <a href="http://192.168.0.25:5500/pk/about.html" class="button b-blue">о нас</a>
+    
+   
+
+    </div>
+    
+</div>
+
+<div class="main">
+    <link rel="stylesheet" href="parasha.css"><!-- кнопки -->
+
+
+<article>
+  <button id="reset" data-bound="true">текст</button><br>
+	<p id="text">Картины - это не просто красочные изображения нахолсте, это воплощение человеческой фантазии итворчества, способное увлечь и захватить нас в  мир множества эмоций и идей.
+ </p>
+	
+</article>
+<script src="parasha.js"></script>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Piet_Mondriaan%2C_1930_-_Mondrian_Composition_II_in_Red%2C_Blue%2C_and_Yellow.jpg/240px-Piet_Mondriaan%2C_1930_-_Mondrian_Composition_II_in_Red%2C_Blue%2C_and_Yellow.jpg "|>
+<img src="https://avatars.dzeninfra.ru/get-zen_doc/1692094/pub_61139cadf00eea30a2d73a42_61139d6df105dd3c0da576b0/scale_1200 "|>
+<img src=" https://i.pinimg.com/236x/cf/41/3b/cf413b5370e83dc6d01743f436415264--piet-mondrian-google.jpg"|>
+<img src=" https://i.pinimg.com/200x150/4a/0e/3f/4a0e3f49b680fd1862c5138f363d1c7c.jpg"|>
+<img src="https://upload.wikimedia.org/wikipedia/ru/thumb/9/94/Оранжевый%2C_красный%2C_жёлтый.jpg/300px-Оранжевый%2C_красный%2C_жёлтый.jpg "|>
+<img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Leonardo_da_Vinci%2C_Salvator_Mundi%2C_c.1500%2C_oil_on_walnut%2C_45.4_×_65.6_cm.jpg/250px-Leonardo_da_Vinci%2C_Salvator_Mundi%2C_c.1500%2C_oil_on_walnut%2C_45.4_×_65.6_cm.jpg"|>
+<img src=" https://upload.wikimedia.org/wikipedia/ru/thumb/8/8b/Interchange_1955_.jpg/525px-Interchange_1955_.jpg"|>
+<img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Paul_Gauguin%2C_Nafea_Faa_Ipoipo%3F_1892%2C_oil_on_canvas%2C_101_x_77_cm.jpg/250px-Paul_Gauguin%2C_Nafea_Faa_Ipoipo%3F_1892%2C_oil_on_canvas%2C_101_x_77_cm.jpg"|>
+<img src=" https://www.artsharesales.com/wp-content/uploads/2020/08/175336601-c1bd3aa6-5ba1-4d35-bdb4-7ffa9d238869-400x250.jpg"|>
+<img src="https://upload.wikimedia.org/wikipedia/en/0/03/No._6_%28Violet%2C_Green_and_Red%29.jpg "|>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/250px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg "|>
+<img src=" https://www.hse.ru/data/2017/05/17/1171369516/zvezdnoe_nebo.jpeg"|>
+<img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/350px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg"|>
+<img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/God2-Sistine_Chapel.png/495px-God2-Sistine_Chapel.png"|>
+
+<img src=" https://upload.wikimedia.org/wikipedia/en/3/3c/Face_and_Fruit_Dish.jpg"|>
+<img src="https://avatars.dzeninfra.ru/get-zen-logos/1520972/pub_635e1dfaf8f3a1185fcfcf04_6365c3740fb1f53b26f3943a/xxh "|>
+<img src=" https://static.wixstatic.com/media/a491e5_fdd8f7b970b1491592843f37e341170a.jpg/v1/fill/w_250,h_166,al_c,q_90,enc_auto/a491e5_fdd8f7b970b1491592843f37e341170a.jpg"|>
+<img src=" https://sun9-59.userapi.com/impg/aRz30F8-auPYL-IFlRHvYTRarL7R2o84D0mvXw/trt8YwHdAgE.jpg?size=320x364&quality=96&sign=43927c2dc01ff19a5b7c43ddfca2242c&c_uniq_tag=kyYpNB1cfbfCkEISa1Spq617lsqBanufV1ybCV8vKgM&type=album"|>
+<img src="https://upload.wikimedia.org/wikipedia/ru/thumb/7/74/PicassoGuernica.jpg/525px-PicassoGuernica.jpg "|>
+<img src=" "|>
+<img src=" "|>
+<img src=" "|>
+<img src=" "|>
+<img src=" "|>
+<img src=" "|>
+<img src=" "|>
+<img src=" "|>
+<img src=" "|>      
+<img src=" "|>                                      
+<img src=" "|>
+<img src=" "|>
+<img src=" "|>
+<img src=" "|>
+<img src=" "|>
+<img src=" "|>          
+<img src=" "|>
+<img src=" "|>
+<img src=" "|>
+<a href="http://192.168.0.25:5500/pk/starashnie.html"><img src="https://upload.wikimedia.org/wikipedia/ru/8/82/Hands_Resist_Him.jpg" width="200" height="300"></a>
+
+</div>
+
+<script src="c:\Users\Admin\Desktop\шаблон 1\risovanie.js"></script>
+</body>
+
+<script src="c:\Users\Admin\Desktop\шаблон 1\risovanie.js"></script>
+</html> 
+
+
+
